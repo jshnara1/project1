@@ -57,7 +57,7 @@
         "type": "function",
         "z": "8ad9e761f4ade338",
         "name": "function 1",
-        "func": "\nreturn msg;",
+        "func": "node.log(\"hello\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -70,6 +70,18 @@
             [
                 "2cbbb31fca70fadf"
             ]
+        ]
+    },
+    {
+        "id": "5d44601f2545b356",
+        "type": "status",
+        "z": "8ad9e761f4ade338",
+        "name": "",
+        "scope": null,
+        "x": 210,
+        "y": 200,
+        "wires": [
+            []
         ]
     }
 ]
